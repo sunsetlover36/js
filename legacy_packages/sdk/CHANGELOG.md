@@ -1,5 +1,17 @@
 # @thirdweb-dev/sdk
 
+## 4.0.93
+
+### Patch Changes
+
+- [#3239](https://github.com/thirdweb-dev/js/pull/3239) [`21ca67d`](https://github.com/thirdweb-dev/js/commit/21ca67dc1342c898baa1ddc564467b39df57d530) Thanks [@0xFirekeeper](https://github.com/0xFirekeeper)! - [TSv4] Avoid unnecessary fetching for error formatting
+
+- [#3236](https://github.com/thirdweb-dev/js/pull/3236) [`8acf564`](https://github.com/thirdweb-dev/js/commit/8acf5643d56a9e65c1f6bad20e8b87271aa115e1) Thanks [@0xFirekeeper](https://github.com/0xFirekeeper)! - Fix caching logic for getContract/getContractFromAbi
+
+- Updated dependencies [[`dbf74aa`](https://github.com/thirdweb-dev/js/commit/dbf74aad3ffaeaa3e3967801549f6ec26f721dea), [`824a631`](https://github.com/thirdweb-dev/js/commit/824a631b55bb4b8d4a0290d19dde081dd90a8647), [`37ec4ca`](https://github.com/thirdweb-dev/js/commit/37ec4ca28d7d0290d4cc8b838d888f67c70e172f), [`d488223`](https://github.com/thirdweb-dev/js/commit/d4882236b786660efd1f60c181d37351109949ff), [`efae2f3`](https://github.com/thirdweb-dev/js/commit/efae2f36b60e0bcade159608903c9b756843151c), [`e7b9b9f`](https://github.com/thirdweb-dev/js/commit/e7b9b9f438ad303fdc79aaca1ca674acd8c7a7ba)]:
+  - thirdweb@5.29.0
+  - @thirdweb-dev/chains@0.1.117
+
 ## 4.0.92
 
 ### Patch Changes

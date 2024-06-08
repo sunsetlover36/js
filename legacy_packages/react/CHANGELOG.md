@@ -1,5 +1,17 @@
 # @thirdweb-dev/react
 
+## 4.6.32
+
+### Patch Changes
+
+- [#3232](https://github.com/thirdweb-dev/js/pull/3232) [`913f99a`](https://github.com/thirdweb-dev/js/commit/913f99a9a4d002b82fcd9e55db41c64aab99cf83) Thanks [@0xFirekeeper](https://github.com/0xFirekeeper)! - Default account factory support
+
+- Updated dependencies [[`913f99a`](https://github.com/thirdweb-dev/js/commit/913f99a9a4d002b82fcd9e55db41c64aab99cf83), [`21ca67d`](https://github.com/thirdweb-dev/js/commit/21ca67dc1342c898baa1ddc564467b39df57d530), [`8acf564`](https://github.com/thirdweb-dev/js/commit/8acf5643d56a9e65c1f6bad20e8b87271aa115e1), [`efae2f3`](https://github.com/thirdweb-dev/js/commit/efae2f36b60e0bcade159608903c9b756843151c)]:
+  - @thirdweb-dev/wallets@2.5.33
+  - @thirdweb-dev/sdk@4.0.93
+  - @thirdweb-dev/chains@0.1.117
+  - @thirdweb-dev/react-core@4.6.32
+
 ## 4.6.31
 
 ### Patch Changes

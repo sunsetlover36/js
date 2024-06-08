@@ -1,5 +1,40 @@
 # thirdweb
 
+## 5.29.0
+
+### Minor Changes
+
+- [#3231](https://github.com/thirdweb-dev/js/pull/3231) [`dbf74aa`](https://github.com/thirdweb-dev/js/commit/dbf74aad3ffaeaa3e3967801549f6ec26f721dea) Thanks [@joaquim-verges](https://github.com/joaquim-verges)! - TransactionButton react native implementation
+
+- [#3229](https://github.com/thirdweb-dev/js/pull/3229) [`e7b9b9f`](https://github.com/thirdweb-dev/js/commit/e7b9b9f438ad303fdc79aaca1ca674acd8c7a7ba) Thanks [@MananTank](https://github.com/MananTank)! - Add `useWalletDetailsModal` hook to open Wallet Details Modal without using `<ConnectButton />` component
+
+  ```tsx
+  import { createThirdwebClient } from "thirdweb";
+  import { useWalletDetailsModal } from "thirdweb/react";
+
+  const client = createThirdwebClient({
+    clientId: "<your_client_id>",
+  });
+
+  function Example() {
+    const { open } = useWalletDetailsModal();
+
+    function handleClick() {
+      open({ client, theme: "light" });
+    }
+
+    return <button onClick={handleClick}> Show Wallet Details </button>;
+  }
+  ```
+
+### Patch Changes
+
+- [#3235](https://github.com/thirdweb-dev/js/pull/3235) [`824a631`](https://github.com/thirdweb-dev/js/commit/824a631b55bb4b8d4a0290d19dde081dd90a8647) Thanks [@gregfromstl](https://github.com/gregfromstl)! - Adds EIP-5792 hook exports to thirdweb/react
+
+- [#3241](https://github.com/thirdweb-dev/js/pull/3241) [`37ec4ca`](https://github.com/thirdweb-dev/js/commit/37ec4ca28d7d0290d4cc8b838d888f67c70e172f) Thanks [@jnsdls](https://github.com/jnsdls)! - fix ipfs `resolveScheme` bug for v1 ipfs schemes
+
+- [#3240](https://github.com/thirdweb-dev/js/pull/3240) [`d488223`](https://github.com/thirdweb-dev/js/commit/d4882236b786660efd1f60c181d37351109949ff) Thanks [@MananTank](https://github.com/MananTank)! - Fix custom theme not used in ConnectEmbed loading screen
+
 ## 5.28.0
 
 ### Minor Changes
